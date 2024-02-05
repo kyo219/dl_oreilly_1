@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dl-oreilly-1"
+version = "0.1.0"
+description = ""
+authors = ["saikyo219 <k.higuchi.219@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dl_oreilly_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^7.0.7"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
